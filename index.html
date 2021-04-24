@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <!-- <div class="all"> -->
+    <div class="container">
+        <div class="wave" style="height: 71px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-159.42,172.20 C-39.21,-109.03 267.77,-56.73 540.91,-33.05 L506.49,99.17 L333.80,103.13 Z" style="stroke: none; fill: #C70424;"></path></svg></div>
+        <div class="div_bottom"></div>
+        <div class="circle"></div>
+        <div class="circle_rosa"></div>
+        <div class="circle_amarillo"></div>
+        <div class="circle_verde"></div>
+
+
+        <div class="div_cuadro">
+           <div class="cuadro_small"></div>
+           <img class="pokemon rotar" src="img/pokebola.png" alt="">
+           <img class="hamburguesa" src="img/amburguesa.png" alt="">
+           <div class="boton_rojo"></div>
+           <div class="boton_rojo_dos"></div>
+        </div>
+        
+        <div class="botones">
+            <div class="boton_azul"></div>
+            <div class="boton_amarillo"></div>
+            <div class="boton_azuldos"></div>
+        </div>
+
+        <div class="search">
+            <input type="text" id="searchpoke" placeholder="¿Quien es ese pokemon?">
+            <img src="img/boton_cruz.png" alt="">
+        </div>
+        <div class="comentario">
+            <p>Busca un pokemon para conocer todas sus caracteristicas.</p>
+        </div>
+
+        <div class="reflejo">
+            <canvas class="datos" width="345px" height="497px" id="myChart"></canvas>
+        </div>
+    <!-- </div> -->
+</div>
+<script type="text/javascript" src="https://unpkg.com/chart.js@2.4.0/dist/Chart.js"></script> 
+<script src="app.js"></script>
+</body>
+</html>
